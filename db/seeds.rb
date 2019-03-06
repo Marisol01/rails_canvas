@@ -13,7 +13,7 @@ roles = ['teacher', 'ta', 'student']
     )
     Enrollment.create(
       role: roles.sample,
-      course_id: course.course_id,
+      course_id: course.id,
       user_id: user.id
     )
   end
